@@ -1,0 +1,47 @@
+  .pageContainer{  
+    display: flex;
+  }  
+  .contentContainer{
+    height: 100vh;
+    display: block;
+    width: 100%;
+  }
+
+  .categories {
+    min-width: 150px;
+    width: 150px;
+    line-height: 30px;
+    display: block;
+    background-color: #2196f3;
+    text-align: center;
+  }
+ 
+
+  .images {
+    height: 90vh;   
+    white-space: normal;
+    contain: content;
+    overflow: auto;
+  }
+
+  .loadMoreButton {
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #2196f3;
+    margin-top: 20px;
+}
+  .loadMoreButton:hover {
+    background-color: #004d8b;
+}
+  .loadMoreButton:focus {
+    background-color: #34a4ff;
+}
+
+.buttonContainer{
+  display: block;
+  text-align: -webkit-center;
+}
